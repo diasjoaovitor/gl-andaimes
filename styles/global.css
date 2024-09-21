@@ -1,0 +1,33 @@
+:root {
+  --bg: #000;
+  --paper: #222;
+  --paper-hover: #444;
+  --paper-2: #6a6e70;
+  --primary: #efe015;
+  --primary-hover: #f0f128;
+  --text: #fff;
+  --subtext: #ccc;
+  --br: 0.2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: var(--text);
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
